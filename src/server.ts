@@ -66,7 +66,7 @@ export function createServer(loadedConfigParam: OpenRouterConfig): McpServer { /
     },
     {
       instructions: `
-Vibe Coder MCP server provides tools for development automation:
+RepoTools MCP server (built on Vibe Coder MCP) provides tools for development automation:
 
 1. Fullstack Starter Kit - Generates custom full-stack project starter kits
 2. Research - Performs deep research using Perplexity Sonar

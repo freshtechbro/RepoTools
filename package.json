@@ -1,7 +1,7 @@
 {
-  "name": "vibe-coder-mcp",
+  "name": "repotools",
   "version": "1.1.0",
-  "description": "Advanced MCP server providing tools for semantic routing, code generation, workflows, and AI-assisted development.",
+  "description": "RepoTools - AI-powered development tools accessible through Chrome extension and MCP server. Built on Vibe-Coder-MCP architecture with 14 powerful AI tools for code analysis, generation, and project management.",
   "main": "build/index.js",
   "type": "module",
   "scripts": {
@@ -37,18 +37,22 @@
     "test:job-result-retriever": "vitest run \"e2e/job-result-retriever-flow.test.ts\""
   },
   "keywords": [
-    "MCP",
-    "AI",
+    "ai",
+    "chrome-extension",
+    "mcp",
+    "development-tools",
+    "code-analysis",
+    "code-generation",
+    "repotools",
+    "vibe-coder-mcp",
     "workflow",
-    "Claude",
+    "claude",
     "task-manager",
     "project-management",
-    "code-generation",
     "semantic-routing",
-    "embeddings",
-    "developer-tools"
+    "embeddings"
   ],
-  "author": "Vibe Coder MCP Team",
+  "author": "RepoTools Team (built on Vibe Coder MCP)",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0",
@@ -98,5 +102,13 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freshtechbro/RepoTools.git"
+  },
+  "homepage": "https://repotools.ai",
+  "bugs": {
+    "url": "https://github.com/freshtechbro/RepoTools/issues"
   }
 }

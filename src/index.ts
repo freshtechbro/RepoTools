@@ -126,7 +126,7 @@ async function main(mcpServer: import("@modelcontextprotocol/sdk/server/mcp.js")
       });
 
       app.listen(port, () => {
-        logger.info(`Vibe Coder MCP server running on http://localhost:${port}`);
+        logger.info(`RepoTools MCP server running on http://localhost:${port}`);
          logger.info('Connect using SSE at /sse and post messages to /messages');
          logger.info('Subscribe to job progress events at /events/:sessionId'); // Log new endpoint
        });
@@ -153,7 +153,7 @@ async function main(mcpServer: import("@modelcontextprotocol/sdk/server/mcp.js")
 
       // We'll pass the session ID and transport type in the context when handling messages
       await mcpServer.connect(transport); // Use mcpServer
-      logger.info('Vibe Coder MCP server running on stdio');
+      logger.info('RepoTools MCP server running on stdio');
     }
   } catch (error) {
     logger.fatal({ err: error }, 'Server error');

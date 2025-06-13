@@ -1,5 +1,5 @@
 @echo off
-REM Setup script for Vibe Coder MCP Server (Production Ready v2.1)
+REM Setup script for RepoTools (built on Vibe Coder MCP Server v2.1)
 setlocal enabledelayedexpansion
 
 REM Color codes for Windows (using PowerShell for colored output)
@@ -9,7 +9,7 @@ set "YELLOW=[33m"
 set "BLUE=[34m"
 set "NC=[0m"
 
-echo Setting up Vibe Coder MCP Server v2.1...
+echo Setting up RepoTools (Vibe Coder MCP Server v2.1)...
 echo ==================================================
 echo Production-ready MCP server with 16+ specialized tools
 echo Agent coordination • Task management • Code analysis • Research • Context curation
@@ -242,7 +242,7 @@ if exist "VibeCoderOutput" if exist "build" if exist "src" (
 echo.
 powershell -Command "Write-Host '✓ Setup completed successfully!' -ForegroundColor Green"
 echo ==================================================
-echo Vibe Coder MCP Server v2.1 (Production Ready) is now set up with 16+ specialized tools:
+echo RepoTools (Vibe Coder MCP Server v2.1) is now set up with 16+ specialized tools:
 echo.
 echo 📋 PLANNING ^& DOCUMENTATION TOOLS:
 echo   - Research Manager (research-manager) - AI-powered research with Perplexity Sonar

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Setup script for Vibe Coder MCP Server (Production Ready v2.1)
+# Setup script for RepoTools (built on Vibe Coder MCP Server v2.1)
 set -e # Exit immediately if a command exits with a non-zero status.
 
 # Color codes for better output
@@ -26,7 +26,7 @@ print_info() {
     echo -e "${BLUE}ℹ${NC} $1"
 }
 
-echo "Setting up Vibe Coder MCP Server v2.1..."
+echo "Setting up RepoTools (Vibe Coder MCP Server v2.1)..."
 echo "=================================================="
 echo "Production-ready MCP server with 16+ specialized tools"
 echo "Agent coordination • Task management • Code analysis • Research • Context curation"
@@ -278,7 +278,7 @@ fi
 echo ""
 print_status "Setup completed successfully!"
 echo "=================================================="
-echo "Vibe Coder MCP Server v2.1 (Production Ready) is now set up with 16+ specialized tools:"
+echo "RepoTools (Vibe Coder MCP Server v2.1) is now set up with 16+ specialized tools:"
 echo ""
 echo "📋 PLANNING & DOCUMENTATION TOOLS:"
 echo "  - Research Manager (research-manager) - AI-powered research with Perplexity Sonar"

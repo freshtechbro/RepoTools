@@ -1,7 +1,7 @@
 {
   "name": "@repotools/chrome-extension",
   "version": "1.0.0",
-  "description": "Repotools Chrome Extension with modern glass design",
+  "description": "RepoTools Chrome Extension - AI-powered development tools with modern glass design. Access 14 AI tools directly in your browser.",
   "type": "module",
   "scripts": {
     "dev": "vite build --watch --mode development",

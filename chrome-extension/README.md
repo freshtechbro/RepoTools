@@ -170,7 +170,7 @@ Each tool accepts specific parameters. Examples:
 - File system access restrictions
 - Authentication tokens
 
-## 🧪 Development
+## ���� Development
 
 ### Build Commands
 
@@ -262,9 +262,11 @@ MIT License - see LICENSE file for details
 
 ## 🔗 Links
 
-- **Website**: https://repotools.ai
-- **Documentation**: https://docs.repotools.ai
-- **Support**: https://github.com/freshtechbro/repotools/issues
+- **🌐 Official Website**: https://repotools.ai
+- **📚 Documentation**: https://docs.repotools.ai
+- **🔧 API Reference**: https://api.repotools.ai
+- **💬 Community**: https://community.repotools.ai
+- **🐛 Support & Issues**: https://github.com/freshtechbro/repotools/issues
 
 ---
 
