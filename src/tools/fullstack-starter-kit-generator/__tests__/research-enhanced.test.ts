@@ -231,7 +231,7 @@ describe('Enhanced Research Integration - Phase 1', () => {
 
     it('should use Promise.all for parallel execution to optimize research time', async () => {
       // Arrange
-      let callOrder: number[] = [];
+      const callOrder: number[] = [];
       mockPerformResearchQuery.mockImplementation(async (query: string) => {
         const callIndex = callOrder.length;
         callOrder.push(callIndex);

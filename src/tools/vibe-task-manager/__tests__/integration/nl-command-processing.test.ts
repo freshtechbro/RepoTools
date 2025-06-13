@@ -295,7 +295,7 @@ describe('Natural Language Command Processing Integration', () => {
       commandGateway.clearHistory(sessionId);
 
       // Verify history is empty after clearing
-      let history = commandGateway.getHistory(sessionId);
+      const history = commandGateway.getHistory(sessionId);
       expect(history.length).toBe(0);
 
       // First command: Create project

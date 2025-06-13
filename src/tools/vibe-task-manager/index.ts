@@ -220,7 +220,7 @@ async function waitForDecompositionCompletion(
     async (cancellationToken, progressCallback) => {
       const startTime = Date.now();
       let lastProgressUpdate = Date.now();
-      let tasksFound = 0;
+      const tasksFound = 0;
 
       while (!cancellationToken.isCancelled) {
         const session = decompositionService.getSession(sessionId);
