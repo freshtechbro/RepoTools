@@ -1,0 +1,31 @@
+dependencies:
+  development: []
+  external: []
+  production: []
+description: Default project for testing
+epicIds: []
+id: default-project
+metadata:
+  createdAt: 2025-06-28T21:47:13.348Z
+  createdBy: test
+  tags: []
+  updatedAt: 2025-06-28T21:47:13.348Z
+  version: 1.0.0
+name: default-project
+priority: medium
+rootPath: /Users/bishopdotun/Documents/Repotools/Vibe-Coder-MCP
+status: pending
+structure:
+  buildDirectories:
+    - dist
+  docDirectories:
+    - docs
+  sourceDirectories:
+    - src
+  testDirectories:
+    - tests
+tags: []
+techStack:
+  frameworks: []
+  languages: []
+  tools: []

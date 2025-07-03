@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "T0001",
+      "title": "Implementuserauthentication",
+      "status": "pending",
+      "priority": "medium",
+      "projectId": "default-project",
+      "epicId": "default-epic",
+      "estimatedHours": 2,
+      "createdAt": "2025-06-28T21:47:13.371Z",
+      "updatedAt": "2025-06-28T21:47:16.880Z"
+    },
+    {
+      "id": "T0002",
+      "title": "Testtask",
+      "status": "pending",
+      "priority": "medium",
+      "projectId": "default-project",
+      "epicId": "default-epic",
+      "estimatedHours": 2,
+      "createdAt": "2025-06-28T21:47:13.388Z",
+      "updatedAt": "2025-06-28T21:47:13.388Z"
+    }
+  ],
+  "lastUpdated": "2025-06-28T21:47:16.898Z",
+  "version": "1.0.0"
+}

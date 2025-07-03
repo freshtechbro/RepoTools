@@ -187,18 +187,18 @@ export class FilesystemSecurity {
       // Normalize the path
       const normalizedPath = this.normalizePath(filePath);
 
-      // Check if path is within allowed directories FIRST
+      // Check blacklist
+      if (this.config.enableBlacklist && this.isBlacklisted(normalizedPath)) {
+        return {
+          allowed: false,
+          reason: 'Path is in system directory blacklist',
+          normalizedPath,
+          securityViolation: true
+        };
+      }
+
+      // Check if path is within allowed directories
       if (!this.isWithinAllowedDirectories(normalizedPath)) {
-        // Only check blacklist for paths outside allowed directories
-        if (this.config.enableBlacklist && this.isBlacklisted(normalizedPath)) {
-          return {
-            allowed: false,
-            reason: 'Path is in system directory blacklist',
-            normalizedPath,
-            securityViolation: true
-          };
-        }
-        
         return {
           allowed: false,
           reason: 'Path is outside allowed directories',

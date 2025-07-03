@@ -1,0 +1,16 @@
+dependencies: []
+dependents: []
+description: Default epic for testing
+estimatedHours: 40
+id: default-epic
+metadata:
+  createdAt: 2025-06-28T21:47:13.353Z
+  createdBy: test
+  tags: []
+  updatedAt: 2025-06-28T21:47:13.353Z
+  version: 1.0.0
+priority: medium
+projectId: default-project
+status: pending
+taskIds: []
+title: Default Epic

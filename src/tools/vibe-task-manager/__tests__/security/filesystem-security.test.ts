@@ -57,7 +57,7 @@ describe('FilesystemSecurity', () => {
       const result = await fsecurity.checkPathSecurity(outsideFile, 'read');
 
       expect(result.allowed).toBe(false);
-      expect(result.reason).toContain('Path is in system directory blacklist');
+      expect(result.reason).toContain('outside allowed directories');
       expect(result.securityViolation).toBe(true);
     });
 

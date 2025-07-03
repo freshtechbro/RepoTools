@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "id": "PID-WEB-APP-001",
+      "name": "Web App",
+      "status": "pending",
+      "createdAt": "2025-06-28T21:47:13.323Z",
+      "updatedAt": "2025-06-28T21:47:13.323Z"
+    },
+    {
+      "id": "PID-API-SERVICE-001",
+      "name": "API Service",
+      "status": "pending",
+      "createdAt": "2025-06-28T21:47:13.341Z",
+      "updatedAt": "2025-06-28T21:47:13.341Z"
+    },
+    {
+      "id": "default-project",
+      "name": "default-project",
+      "status": "pending",
+      "createdAt": "2025-06-28T21:47:13.348Z",
+      "updatedAt": "2025-06-28T21:47:13.348Z"
+    },
+    {
+      "id": "PID-TEST-PROJECT-001",
+      "name": "Test Project",
+      "status": "pending",
+      "createdAt": "2025-06-28T21:47:13.685Z",
+      "updatedAt": "2025-06-28T21:47:13.685Z"
+    },
+    {
+      "id": "PID-TEST-PROJECT-002",
+      "name": "test-project",
+      "status": "pending",
+      "createdAt": "2025-06-28T21:47:16.318Z",
+      "updatedAt": "2025-06-28T21:47:16.318Z"
+    },
+    {
+      "id": "PID-TEST-PROJECT-003",
+      "name": "test-project",
+      "status": "pending",
+      "createdAt": "2025-06-28T21:47:16.825Z",
+      "updatedAt": "2025-06-28T21:47:16.825Z"
+    }
+  ],
+  "lastUpdated": "2025-06-28T21:47:16.830Z",
+  "version": "1.0.0"
+}

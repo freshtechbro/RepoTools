@@ -1,7 +1,7 @@
 {
   "name": "@repotools/lightweight-server",
   "version": "1.0.0",
-  "description": "RepoTools Lightweight Server - WebSocket bridge and processing layer for Chrome extension integration with MCP server.",
+  "description": "Repotools Lightweight Server - Processing layer for Chrome extension",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {

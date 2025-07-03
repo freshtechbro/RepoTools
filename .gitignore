@@ -1,28 +1,25 @@
-# Project-specific directories and files
-.env
-workflow-agent-files/
-
-# Dependency directories
+# Dependencies
 node_modules/
-jspm_packages/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Build outputs
 dist/
 build/
-/tools/
 *.tsbuildinfo
 
-# Configuration files with potential sensitive information
-claude_desktop_config*.json
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Logs
-logs
+logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-.pnpm-debug.log*
+.server-pids
 
 # Runtime data
 pids
@@ -30,111 +27,45 @@ pids
 *.seed
 *.pid.lock
 
-# Testing
+# Coverage directory used by tools like istanbul
 coverage/
-.nyc_output/
-test-results.xml
-vitest.config.*.timestamp-*
-.vitest/
-test/
-*/__tests__/
-*/tests/
-*/__integration__/
+*.lcov
 
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
-.history/
+# nyc test coverage
+.nyc_output
 
-# IDE - JetBrains
-.idea/
-*.iml
-*.iws
-*.ipr
-.idea_modules/
+# Dependency directories
+.pnp/
+.pnp.js
 
-# IDE - Eclipse
-.project
-.classpath
-.settings/
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
 
-# OS
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# OS generated files
 .DS_Store
-Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
+Thumbs.db
 
-# Temporary files
+# IDE files
+.vscode/
+.idea/
 *.swp
 *.swo
 *~
+
+# Temporary files
 tmp/
 temp/
-
-# Environment
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Miscellaneous
-.cache/
-.parcel-cache/
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
-ignored-files.txt
-
-# Generated logs and results
-detailed_logs.txt
-lint-error.txt
-lint-results.txt
-test-results.json
-server.log
-
-# Cline specific files
-.clinerules/
-memory-bank/
-
-# Vibe Coder specific output (New name)
-VibeCoderOutput/
-
-# Documentation (if not intended for commit)
-docs/
-
-# Windsurf and Plan Documentation
-.windsurf/
-plan_docs/
-
-# Untracked file to ignore
-
-# Windsurf specific files
-.windsurf/
-
-# Planning documents
-plan_docs/
-/*-implementation-plan*.md
-/*-enhancement-plan*.md
-/*-plan-*.md
-/*-optimization-plan*.md
-/*-handover*.md
-/*plan*.md
-
-# E2E test directories
-e2e/
-e2e
-
-# Temporary script files
-fix-*.sh
-remove-*.sh
-test-*.js
-
-# Duplicate files
-*\ 2.*
-*\ 3.*
+*.tmp
+*.temp

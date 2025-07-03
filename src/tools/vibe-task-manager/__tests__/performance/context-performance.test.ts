@@ -3,7 +3,6 @@ import { ContextEnrichmentService, ContextRequest, ContextResult } from '../../s
 import { FileSearchEngine } from '../../../../services/file-search-service/file-search-engine.js';
 import { FileReaderService } from '../../../../services/file-search-service/file-reader-service.js';
 import { createMockConfig, createMockContext } from '../utils/test-setup.js';
-import { resetTestSecurity } from '../utils/test-security-config.js';
 import { performance } from 'perf_hooks';
 
 /**
@@ -42,9 +41,6 @@ describe('Context Performance Benchmarks', () => {
   beforeEach(() => {
     mockConfig = createMockConfig();
     contextService = ContextEnrichmentService.getInstance();
-
-    // Configure filesystem security for test environment
-    resetTestSecurity();
 
     // Clear any existing cache
     contextService.clearCache();
